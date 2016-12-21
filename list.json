@@ -1,0 +1,161 @@
+[
+	{
+		"name": "North East PHP",
+		"dates": {
+			"from": {
+				"day": 9,
+				"month": 8,
+				"year": 2017
+			},
+			"to": {
+	 			"day": 11,
+				"month": 8,
+				"year": 2017
+			}
+		},
+		"location": {
+			"city": "Charlottetown",
+			"state": "PEI",
+			"country": "CA"
+			},
+		"focus": ["php"],
+		"website": "http://www.northeastphp.org",
+		"cfp_dates": {
+			"from": {},
+			"to": {}
+		}
+	},
+	{
+	"name": "TechSummit Berlin",
+		"dates": {
+			"from": {
+				"day": 12,
+				"month": 4,
+				"year": 2017
+			},
+			"to": {
+	 			"day": 12,
+				"month": 4,
+				"year": 2017
+			}
+		},
+		"location": {
+			"city": "Berlin",
+			"state": "",
+			"country": "DE"
+			},
+		"focus": ["devops"],
+		"website": "http://www.techsummit.io/",
+		"cfp_dates": {
+			"from": {
+				"day": 20,
+				"month": 12,
+				"year": 2016
+			},
+			"to": {
+	 			"day": 31,
+				"month": 1,
+				"year": 2017
+			}
+		}
+	},
+	{
+	"name": "TechSummit Amsterdam",
+		"dates": {
+			"from": {
+				"day": 1,
+				"month": 6,
+				"year": 2017
+			},
+			"to": {
+	 			"day": 1,
+				"month": 6,
+				"year": 2017
+			}
+		},
+		"location": {
+			"city": "Amsterdam",
+			"state": "",
+			"country": "NL"
+			},
+		"focus": ["devops"],
+		"website": "http://www.techsummit.io/",
+		"cfp_dates": {
+			"from": {
+				"day": 20,
+				"month": 12,
+				"year": 2016
+			},
+			"to": {
+	 			"day": 14,
+				"month": 3,
+				"year": 2017
+			}
+		}
+	},
+	{
+	"name": "O'Reilly Fluent Conf",
+		"dates": {
+			"from": {
+				"day": 19,
+				"month": 6,
+				"year": 2017
+			},
+			"to": {
+	 			"day": 22,
+				"month": 6,
+				"year": 2017
+			}
+		},
+		"location": {
+			"city": "San Jose",
+			"state": "California",
+			"country": "US"
+			},
+		"focus": ["javascript"],
+		"website": "http://conferences.oreilly.com/fluent/fl-ca",
+		"cfp_dates": {
+			"from": {
+				"day": 20,
+				"month": 12,
+				"year": 2016
+			},
+			"to": {
+	 			"day": 10,
+				"month": 1,
+				"year": 2017
+			}
+		}
+	},
+	{
+	"name": "Full Stack Toronto",
+		"dates": {
+			"from": {
+				"day": 23,
+				"month": 10,
+				"year": 2017
+			},
+			"to": {
+	 			"day": 24,
+				"month": 10,
+				"year": 2017
+			}
+		},
+		"location": {
+			"city": "Toronto",
+			"state": "Ontario",
+			"country": "CA"
+			},
+		"focus": ["javascript", "web"],
+		"website": "http://2017.fsto.co/",
+		"cfp_dates": {
+			"from": {
+				"day": 20,
+				"month": 12,
+				"year": 2016
+			},
+			"to": {
+			}
+		}
+	}
+]
