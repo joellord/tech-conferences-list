@@ -4,7 +4,7 @@ Just a list of conferences.  Feel free to contribute with yours.
 
 ## Web View
 
-You can see the list of conferences by going [here](https://joellord.github.io/tech-conference-list/webview) so let
+You can see the list of conferences by going [here](https://joellord.github.io/tech-conferences-list/webview/).
 
 ## How to add a conference
 
