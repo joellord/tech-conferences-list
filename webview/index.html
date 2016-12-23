@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>List of Tech Conferences</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Yet Another Conference List</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">The List</a>
+                    </li>
+                    <li>
+                        <a href="http://www.github.com/joellord/tech-conference-list">Contribute</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h1>Yet Another Conference List!</h1>
+            <p>There are many tech conference lists out there but I got tired of going through all those different
+                formats.  Here is a list of conferences in an open source format.  I also added the CFP dates to help me
+                figure out which ones to apply to.  I hope this helps you as well and feel free to contribute.</p>
+            <p><a href="http://www.github.com/joellord/tech-conference-list" class="btn btn-primary btn-large">Contribute</a>
+            </p>
+        </header>
+
+        <hr>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>The list!</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <th>Conference</th>
+                    <th>Location</th>
+                    <th>Dates</th>
+                    <th>Website</th>
+                    <th>CFP Opened?</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <!-- /.row -->
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Joel Lord <script>document.write((new Date()).getFullYear());</script></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+        var months = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        $(document).on("ready", function() {
+            $.get("../list.json", function(list) {
+                for (var i = 0; i < list.length; i++) {
+                    var item = list[i];
+                    //If conference is in the future
+                    var confDate = new Date();
+                    confDate.setDate(item.dates.to.day);
+                    confDate.setMonth(item.dates.to.month-1);
+                    confDate.setFullYear(item.dates.to.year);
+                    if (confDate.getTime() < (new Date()).getTime()) continue;
+
+
+                    var row = $("<tr>");
+                    $("<td>").text(item.name).appendTo(row);
+                    $("<td>").text(item.location.city + ", " + item.location.state + ", " + item.location.country).appendTo(row);
+                    var dates = months[item.dates.from.month] + " " + item.dates.from.day + " to " + months[item.dates.to.month] + " " + item.dates.to.day;
+                    $("<td>").text(dates).appendTo(row);
+                    var link = $("<a>").attr("href", item.website).attr("target", "_blank").text(item.website);
+                    $("<td>").append(link).appendTo(row);
+                    var cfpOpened = false;
+                    if (item.cfp_dates && (item.cfp_dates.from || item.cfp_dates.to)) {
+                        var cfpToDate = new Date();
+                        cfpToDate.setDate(item.cfp_dates.to.day);
+                        cfpToDate.setMonth(item.cfp_dates.to.month-1);
+                        cfpToDate.setFullYear(item.cfp_dates.to.year);
+                        if (cfpToDate.getTime() > (new Date()).getTime()) cfpOpened = true;
+                    }
+                    $("<td>").text(cfpOpened ? "Yes" : "No").appendTo(row);
+                    $("tbody").append(row);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

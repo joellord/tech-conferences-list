@@ -2,6 +2,10 @@
 
 Just a list of conferences.  Feel free to contribute with yours.
 
+## Web View
+
+You can see the list of conferences by going [here](https://joellord.github.io/tech-conference-list/webview) so let
+
 ## How to add a conference
 
 Lookup the format of a new entry in format.json.  Add a new entry to the list and do a pull request!
