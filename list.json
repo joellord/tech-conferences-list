@@ -311,5 +311,73 @@
         "year": 2017
       }
     }
+  },
+  {
+    "name": "Drupalcon Baltimore",
+    "dates": {
+      "from": {
+        "day": 24,
+        "month": 4,
+        "year": 2017
+      },
+      "to": {
+        "day": 28,
+        "month": 4,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "US"
+    },
+    "focus": ["php"],
+    "website": "https://events.drupal.org/baltimore2017/",
+    "cfp_dates": {
+      "from": {
+        "day": 28,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 1,
+        "month": 2,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "php[tek]",
+    "dates": {
+      "from": {
+        "day": 24,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 26,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "US"
+    },
+    "focus": ["php"],
+    "website": "https://tek.phparch.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 28,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 12,
+        "month": 30,
+        "year": 2016
+      }
+    }
   }
 ]
