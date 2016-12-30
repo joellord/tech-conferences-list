@@ -124,7 +124,7 @@
         var months = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
         $(document).on("ready", function() {
-            $.get("../list.json", function(list) {
+            $.get("../list-clean.json", function(list) {
                 for (var i = 0; i < list.length; i++) {
                     var item = list[i];
                     //If conference is in the future
