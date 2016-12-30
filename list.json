@@ -331,7 +331,9 @@
       "state": "MD",
       "country": "US"
     },
-    "focus": ["php"],
+    "focus": [
+      "php"
+    ],
     "website": "https://events.drupal.org/baltimore2017/",
     "cfp_dates": {
       "from": {
@@ -342,6 +344,40 @@
       "to": {
         "day": 1,
         "month": 2,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Enter JS",
+    "dates": {
+      "from": {
+        "day": 20,
+        "month": 6,
+        "year": 2017
+      },
+      "to": {
+        "day": 22,
+        "month": 6,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Darmstadt",
+      "state": "",
+      "country": "DE"
+    },
+    "focus": ["javascript"],
+    "website": "https://www.enterjs.de/",
+    "cfp_dates": {
+      "from": {
+        "day": 22,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 16,
+        "month": 1,
         "year": 2017
       }
     }
