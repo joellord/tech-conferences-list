@@ -311,5 +311,415 @@
         "year": 2017
       }
     }
+  },
+  {
+    "name": "PHP Days Verona",
+    "dates": {
+      "from": {
+        "day": 12,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 13,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Verona",
+      "state": "",
+      "country": "IT"
+    },
+    "focus": ["php"],
+    "website": "http://2017.phpday.it/",
+    "cfp_dates": {
+      "from": {
+        "day": 22,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 31,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Drupalcon Baltimore",
+    "dates": {
+      "from": {
+        "day": 24,
+        "month": 4,
+        "year": 2017
+      },
+      "to": {
+        "day": 28,
+        "month": 4,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "US"
+    },
+    "focus": [
+      "php"
+    ],
+    "website": "https://events.drupal.org/baltimore2017/",
+    "cfp_dates": {
+      "from": {
+        "day": 28,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 1,
+        "month": 2,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Enter JS",
+    "dates": {
+      "from": {
+        "day": 20,
+        "month": 6,
+        "year": 2017
+      },
+      "to": {
+        "day": 22,
+        "month": 6,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Darmstadt",
+      "state": "",
+      "country": "DE"
+    },
+    "focus": ["javascript"],
+    "website": "https://www.enterjs.de/",
+    "cfp_dates": {
+      "from": {
+        "day": 22,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 16,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "php[tek]",
+    "dates": {
+      "from": {
+        "day": 24,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 26,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "US"
+    },
+    "focus": ["php"],
+    "website": "https://tek.phparch.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 28,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 12,
+        "month": 30,
+        "year": 2016
+      }
+    }
+  },
+  {
+    "name": "CoderCruise",
+    "dates": {
+      "from": {
+        "day": 16,
+        "month": 7,
+        "year": 2017
+      },
+      "to": {
+        "day": 23,
+        "month": 7,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "New-Orleans",
+      "state": "LA",
+      "country": "US"
+    },
+    "focus": ["php", "javascript", "python", "sql"],
+    "website": "https://www.codercruise.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 6,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Developer Week 2017",
+    "dates": {
+      "from": {
+        "day": 26,
+        "month": 6,
+        "year": 2017
+      },
+      "to": {
+        "day": 29,
+        "month": 6,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Nurnberg",
+      "state": "",
+      "country": "DE"
+    },
+    "focus": ["javascript", "php", "python", "ruby", "sql"],
+    "website": "http://www.developer-week.de/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 8,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "ng-cruise",
+    "dates": {
+      "from": {
+        "day": 29,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 2,
+        "month": 6,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "country": "US"
+    },
+    "focus": ["javascript"],
+    "website": "https://ngcruise.com",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 15,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "PHP Serbia",
+    "dates": {
+      "from": {
+        "day": 27,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 28,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Belgrade",
+      "state": "",
+      "country": "RS"
+    },
+    "focus": ["php", "javascript", "sql"],
+    "website": "http://conf2017.phpsrbija.rs/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 22,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "PHP Southcoast UK",
+    "dates": {
+      "from": {
+        "day": 9,
+        "month": 6,
+        "year": 2017
+      },
+      "to": {
+        "day": 10,
+        "month": 6,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Portsmouth",
+      "state": "",
+      "country": "UK"
+    },
+    "focus": ["php"],
+    "website": "https://2017.phpsouthcoast.co.uk/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 31,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "DEVit Web Conference",
+    "dates": {
+      "from": {
+        "day": 20,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 21,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Thessaloniki",
+      "state": "",
+      "country": "GR"
+    },
+    "focus": ["javascript", "php", "ruby", "sql"],
+    "website": "http://devitconf.org/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 5,
+        "month": 2,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "PHP Tour Nantes",
+    "dates": {
+      "from": {
+        "day": 18,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 19,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Nantes",
+      "state": "",
+      "country": "FR"
+    },
+    "focus": ["php"],
+    "website": "http://event.afup.org/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 12,
+        "month": 3,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Web Summer Camp",
+    "dates": {
+      "from": {
+        "day": 30,
+        "month": 8,
+        "year": 2017
+      },
+      "to": {
+        "day": 2,
+        "month": 9,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Rovinj",
+      "state": "",
+      "country": "HR"
+    },
+    "focus": ["javascript", "php"],
+    "website": "http://2017.websummercamp.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 31,
+        "month": 3,
+        "year": 2017
+      }
+    }
   }
 ]

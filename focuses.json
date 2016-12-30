@@ -11,4 +11,6 @@
 	"html",
 	"css",
 	"nodejs",
-	"ui/ux" ]
+	"ui/ux",
+	"python",
+	"sql" ]
