@@ -721,5 +721,63 @@
         "year": 2017
       }
     }
+  },
+  {
+    "name": "Peers",
+    "dates": {
+      "from": {
+        "day": 26,
+        "month": 4,
+        "year": 2017
+      },
+      "to": {
+        "day": 28,
+        "month": 4,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "US"
+    },
+    "focus": ["web"],
+    "website": "http://peersconf.com/",
+    "cfp_dates": {
+    }
+  },
+  {
+    "name": "Codeland",
+    "dates": {
+      "from": {
+        "day": 21,
+        "month": 4,
+        "year": 2017
+      },
+      "to": {
+        "day": 22,
+        "month": 4,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "New-York",
+      "state": "NY",
+      "country": "US"
+    },
+    "focus": ["web", "code"],
+    "website": "http://codelandconf.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 29,
+        "month": 12,
+        "year": 2016
+      },
+      "to": {
+        "day": 8,
+        "month": 1,
+        "year": 2017
+      }
+    }
   }
 ]
