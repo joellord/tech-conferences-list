@@ -779,5 +779,39 @@
         "year": 2017
       }
     }
+  },
+  {
+    "name": "Lone Star PHP",
+    "dates": {
+      "from": {
+        "day": 20,
+        "month": 4,
+        "year": 2017
+      },
+      "to": {
+        "day": 22,
+        "month": 4,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US"
+    },
+    "focus": ["web", "php"],
+    "website": "http://lonestarphp.com/",
+    "cfp_dates": {
+      "from": {
+        "day": 10,
+        "month": 1,
+        "year": 2017
+      },
+      "to": {
+        "day": 15,
+        "month": 1,
+        "year": 2017
+      }
+    }
   }
 ]
