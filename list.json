@@ -813,5 +813,107 @@
         "year": 2017
       }
     }
+  },
+  {
+    "name": "JS Remote",
+    "dates": {
+      "from": {
+        "day": 15,
+        "month": 3,
+        "year": 2017
+      },
+      "to": {
+        "day": 16,
+        "month": 3,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Online",
+      "state": "NA",
+      "country": "NA"
+    },
+    "focus": ["javascript"],
+    "website": "https://devchat.tv/conferences/js-remote-conf-2017",
+    "cfp_dates": {
+      "from": {
+        "day": 1,
+        "month": 1,
+        "year": 2017
+      },
+      "to": {
+        "day": 16,
+        "month": 1,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "FullStack 2017",
+    "dates": {
+      "from": {
+        "day": 12,
+        "month": 7,
+        "year": 2017
+      },
+      "to": {
+        "day": 14,
+        "month": 7,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "London",
+      "state": "",
+      "country": "UK"
+    },
+    "focus": ["javascript", "iot"],
+    "website": "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
+    "cfp_dates": {
+      "from": {
+        "day": 1,
+        "month": 15,
+        "year": 2017
+      },
+      "to": {
+        "day": 29,
+        "month": 3,
+        "year": 2017
+      }
+    }
+  },
+  {
+    "name": "Self.Conference",
+    "dates": {
+      "from": {
+        "day": 19,
+        "month": 5,
+        "year": 2017
+      },
+      "to": {
+        "day": 20,
+        "month": 5,
+        "year": 2017
+      }
+    },
+    "location": {
+      "city": "Detroit",
+      "state": "MI",
+      "country": "US"
+    },
+    "focus": ["javascript", "people"],
+    "website": "http://selfconference.org/",
+    "cfp_dates": {
+      "from": {
+        "day": 1,
+        "month": 15,
+        "year": 2017
+      },
+      "to": {
+        "day": 13,
+        "month": 2,
+        "year": 2017
+      }
+    }
   }
 ]
